@@ -193,7 +193,7 @@ export default async (req: VercelRequest, res: VercelResponse) => {
     
     <div class="main">
     		<div>
-            <h2>Log from user ${data.recipient.username}#${data.recipient.discriminator}</h2>
+            <h2>Log from user ${data.recipient.username}</h2>
             ${data.note ? `<p class="content-text">Note: ${data.note}</p>` : ''}
             <hr>
         </div>
